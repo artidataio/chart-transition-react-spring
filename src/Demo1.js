@@ -28,6 +28,7 @@ export default function Demo1() {
 
   return (
     <>
+      <p style={{ fontWeight: "bold" }}>Demo 1</p>
       <p>
         Every time the button is clicked, the square will move 100 px to the
         right. The reset button will move the square to zero no matter what the

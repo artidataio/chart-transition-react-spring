@@ -28,6 +28,7 @@ export default function Demo2() {
 
   return (
     <>
+      <p style={{ fontWeight: "bold" }}>Demo 2</p>
       <p>
         Scaling it to multiple square without code repetition. Here the
         animation can be varied such that the squares move 40px, 80px, 120px
