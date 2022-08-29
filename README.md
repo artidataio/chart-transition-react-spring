@@ -1,2 +1,2 @@
-# chart-transition-react-spring
+# controlled-translation-react-spring
 Created with CodeSandbox
