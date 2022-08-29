@@ -36,8 +36,8 @@ export default function Demo3() {
       </p>
       <button onClick={handleAnimate}>Animate</button>
       <button onClick={handleReset}>Reset</button>
-      {springs.map((styles) => (
-        <animated.div style={{ ...rectStyle, ...styles }} />
+      {springs.map((styles, ind) => (
+        <animated.div key={ind} style={{ ...rectStyle, ...styles }} />
       ))}
     </>
   );
