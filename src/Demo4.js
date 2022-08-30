@@ -2,14 +2,6 @@ import { useState } from "react";
 import { useSprings, animated } from "@react-spring/web";
 import { ParentSize } from "@visx/responsive";
 
-const rectStyle = {
-  x: 0,
-  height: "10vmin",
-  background: "#ff6d6d",
-  marginTop: "5vmin",
-  borderRadius: 8
-};
-
 export default function Demo4() {
   const [widths, setWidths] = useState(
     Array(10)
