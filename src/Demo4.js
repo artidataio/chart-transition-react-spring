@@ -19,7 +19,7 @@ export default function Demo4() {
   };
 
   const handleReset = () => {
-    const widthsNew = Array(10)
+    const widthsNew = Array(9)
       .fill()
       .map((val, ind) => (ind + 1) * 10);
     api.start((index) => ({ width: `${widthsNew[index]}%` }));
