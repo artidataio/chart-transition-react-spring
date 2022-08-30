@@ -15,7 +15,7 @@ const colors = [
   { key: 10, color: "#b8b0ac" }
 ];
 
-export default function Demo4() {
+export default function Demo5() {
   const [fills, setFills] = useState(colors);
   const anims = useTransition(fills, {
     unique: true,
