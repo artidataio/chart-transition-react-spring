@@ -3,6 +3,7 @@ import Demo2 from "./Demo2";
 import Demo3 from "./Demo3";
 import Demo4 from "./Demo4";
 import Demo5 from "./Demo5";
+import Demo6 from "./Demo6";
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
       <Demo3 />
       <Demo4 />
       <Demo5 />
+      <Demo6 />
     </>
   );
 }
