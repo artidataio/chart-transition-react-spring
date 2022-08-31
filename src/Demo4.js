@@ -35,7 +35,7 @@ export default function Demo4() {
       </p>
       <button onClick={handleAnimate}>Animate</button>
       <button onClick={handleReset}>Reset</button>
-      <div style={{ aspectRatio: "16/9", width: "50vw" }}>
+      <div style={{ aspectRatio: "9/6", width: "50vw" }}>
         <ParentSize>
           {({ height, width }) => (
             <svg height={height} width={width}>

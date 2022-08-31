@@ -68,7 +68,7 @@ export default function Demo6() {
       </p>
       <button onClick={handleAdd}>Add</button>
       <button onClick={handleRemove}>Remove</button>
-      <div style={{ aspectRatio: "16/9", width: "50vw" }}>
+      <div style={{ aspectRatio: "9/6", width: "50vw" }}>
         <ParentSize>
           {({ height, width }) =>
             width && height ? (
