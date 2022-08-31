@@ -4,7 +4,7 @@ import { ParentSize } from "@visx/responsive";
 
 function Chart({ data, height, width }) {
   const anims = useTransition(data, {
-    unique: true,
+    keys: (d) => d.key,
     from: (d) => ({
       width: 0,
       y: 0,
@@ -22,19 +22,19 @@ function Chart({ data, height, width }) {
     }),
     leave: (d) => ({
       width: 0,
-      y: 0
+      y: 0,
+      height: 0
     })
   });
 
   return (
     <svg height={height} width={width}>
-      {anims(({ width, y }, item) => (
+      {anims(({ width, y, height: heightAnim }, item) => (
         <animated.rect
           x={0}
           y={y}
-          key={item.key}
           width={width}
-          height={(height / data.length) * 0.9}
+          height={heightAnim}
           fill="#ff6d6d"
         />
       ))}
