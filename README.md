@@ -1,2 +1,3 @@
-# controlled-translation-react-spring
-Created with CodeSandbox
+# chart-transition-react-spring
+
+This is my exploration in animating chart transition with [react-spring](https://react-spring.dev/) library.
